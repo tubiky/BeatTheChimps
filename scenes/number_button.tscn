@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4twqs08esp"]
+
+[ext_resource type="Texture2D" uid="uid://vvv2us7hh2c7" path="res://image/1.png" id="1_i61n1"]
+[ext_resource type="Script" path="res://scenes/number_button.gd" id="2_kieri"]
+
+[node name="NumberButton" type="TextureButton" groups=["card"]]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -360.0
+offset_right = -460.0
+offset_bottom = -180.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_i61n1")
+script = ExtResource("2_kieri")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

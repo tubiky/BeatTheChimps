@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://debtk7epa4p5c"]
+
+[ext_resource type="Script" path="res://scenes/manager/card_manager.gd" id="1_ajr1m"]
+
+[node name="CardManager" type="Node"]
+script = ExtResource("1_ajr1m")
